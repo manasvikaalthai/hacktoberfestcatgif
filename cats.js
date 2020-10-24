@@ -82,5 +82,6 @@ export let cats = [
     'https://media.giphy.com/media/33OrjzUFwkwEg/giphy.gif',
     'https://media.giphy.com/media/q1MeAPDDMb43K/giphy.gif',
     'https://media.giphy.com/media/12PA1eI8FBqEBa/giphy.gif',
-    'https://media.giphy.com/media/12HZukMBlutpoQ/giphy.gif'
+    'https://media.giphy.com/media/12HZukMBlutpoQ/giphy.gif',
+    'https://tenor.com/view/cat-waiting-gif-5701246',
 ];
