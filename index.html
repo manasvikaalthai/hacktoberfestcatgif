@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cat Gifs</title>
+        <link rel="shortcut icon" href="images/cat.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="cats" class="container text-center">
+            <div class="alert alert-info mt-4 mb-4 text-mono" role="alert">
+                <i class="fas fa-cat"></i> Nothing But Awesome Cat Gifs!
+                <i class="fab fa-github-alt"></i> Contribute On 
+                <a href="https://github.com/andrejarrell/catgifs" target="_blank"> GitHub!</a>
+                <i class="fas fa-file-upload"></i> Total Gifs: {{ cats.length }}
+            </div>
+
+            <div class="card-columns">
+                <div v-for="(n, i) in loaded" class="card mb-4">
+                    <img src="images/loading.gif" class="lazy card-img-top" :data-src="cats[i]">
+                </div>
+            </div>
+
+            <a @click="load" v-if="loaded < cats.length" class="btn btn-shadow text-mono btn-info mb-4">
+                <i class="fas fa-plus"></i> Load More
+            </a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/yall-js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
