@@ -4,7 +4,7 @@
 
 # <img src="https://raw.githubusercontent.com/andrejarrell/catgifs/master/images/type.gif" width="30"> Contributing
 
-### 1. 🍴 Fork Repo
+### 1. 🍴 Fork Repo -- do it!
 
 ### 2. 📝 Edit
 
